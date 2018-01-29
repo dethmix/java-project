@@ -9,7 +9,7 @@
   <property name="dist.dir" location="dist" />
 
   <path id="class.path">
-    <pathelement location="./bin">
+    <pathelement location="./bin" />
   </path>
 
   <!-- Deletes the existing build, docs and dist directory-->
