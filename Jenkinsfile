@@ -46,6 +46,7 @@ pipeline {
    }
    stage("TEst on Debian") {
     agent {
+      label 'master'
       docker 'openjdk:8u151-jre' 
     }
     steps {
